@@ -1,9 +1,12 @@
 [[source]]
+
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [packages]
+
 jupyter = "*"
 treetaggerwrapper = "*"
 requests-xml = "*"
@@ -11,4 +14,6 @@ treetagger-python = {git = "https://github.com/diyclassics/treetagger-python.git
 cltk = {git = "https://github.com/diyclassics/cltk.git", ref = "lemma-update"}
 pycollatinus = "*"
 
+
 [dev-packages]
+
